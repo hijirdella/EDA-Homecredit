@@ -76,3 +76,42 @@ Rata-rata rasio uang muka relatif rendah (sekitar 7.96%), namun ada beberapa out
 # 12. Korelasi yang Kuat Antara Harga Barang dan Jumlah Kredit
 ![12. Harga Barang vs Jumlah Kredit](https://github.com/hijirdella/EDA-Homecredit/blob/2b7ce664391a7d9e5209de50118b91367b41b920/BI%20Graph/11.%20Harga%20Barang%20vs%20Jumlah%20Kredit.png)
 Ada korelasi sangat kuat antara harga barang yang dibiayai dan jumlah kredit yang diberikan. Hal ini menunjukkan bahwa peminjam sering kali mengambil kredit yang sesuai dengan nilai barang yang ingin mereka beli, terutama untuk barang-barang dengan harga tinggi.
+
+# 13. Rata-rata Jumlah Hari Tunggakan (SK_DPD) Berdasarkan Bulan
+![13. Rata-rata Jumlah Hari Tunggakan (SK_DPD) Berdasarkan Bulan](https://github.com/hijirdella/EDA-Homecredit/blob/e1a5eb1644642621168dbcb82152b042228c053f/BI%20Graph/13.%20Rata-rata%20Jumlah%20Hari%20Tunggakan%20(SK_DPD)%20Berdasarkan%20Bulan.png)
+Berdasarkan grafik yang menampilkan rata-rata jumlah hari tunggakan (SK_DPD) berdasarkan bulan (MONTHS_BALANCE), berikut business insight yang bisa diambil:
+
+Ada peningkatan risiko keterlambatan pembayaran pada awal dan pertengahan periode pinjaman.
+Perusahaan perlu memperhatikan nasabah sekitar bulan -50, di mana risiko keterlambatan pembayaran paling tinggi.
+Intervensi yang tepat setelah puncak tunggakan dapat membantu menurunkan risiko gagal bayar di masa berikutnya.
+Mendekati akhir masa pinjaman, nasabah cenderung lebih disiplin dalam melakukan pembayaran. Lonjakan kecil di akhir periode dapat diatasi dengan strategi restrukturisasi atau bantuan pembayaran agar nasabah dapat menyelesaikan kewajiban mereka.
+
+# 14. Average Months Balance per Status
+![14. Average Months Balance per Status](https://github.com/hijirdella/EDA-Homecredit/blob/e1a5eb1644642621168dbcb82152b042228c053f/BI%20Graph/14.%20Average%20Months%20Balance%20per%20Status.png)
+Berdasarkan dari analisis yang telah kita lakukan didapatkan bahwa nasabah cenderung tidak memilih untuk membayar cicilan dengan tenor yang lebih lama.
+
+Pada MONTHS_BALANCE rata-rata pembayaran dengan ternor tertinggi terdapat pada STATUS 3 sebesar ~50.3 bulan.
+
+# 15. Total SK_ID_BUREAU per Status
+![15. Total SK_ID_BUREAU per Status](https://github.com/hijirdella/EDA-Homecredit/blob/e1a5eb1644642621168dbcb82152b042228c053f/BI%20Graph/15.%20Total%20SK_ID_BUREAU%20per%20Status.png)
+Sedangkan pada SK_ID_BUREAU nasabah terbanyak terdapat pada STATUS 6 sebesar ~13646993 nasabah.
+
+Sehingga secara keseluruhan dapat kita simpulkan bahwa nasabah terbanyak terdapat pada STATUS 6 dengan rata-rata tenor pembayaran ~28.1 atau 2,3 tahun. Berdasarkan hal tersebut kita dapat membuat skema untuk membuat program dengan skema cicilan dengan jangka pendek sekitar 2,8 tahun atau 34 bulan.
+
+# 16. Distribusi Status Kredit - Aktif vs Ditutup
+![16. Distribusi Status Kredit - Aktif vs Ditutup](https://github.com/hijirdella/EDA-Homecredit/blob/e1a5eb1644642621168dbcb82152b042228c053f/BI%20Graph/16.%20Distribusi%20Status%20Kredit%20-%20Aktif%20vs%20Ditutup.png)
+Kredit Aktif dan Ditutup:
+grafik ini membantu perusahaan dalam memahami jumlah kredit aktif yang masih berjalan versus yang sudah ditutup, serta memberikan indikasi tentang seberapa baik portofolio kredit perusahaan saat ini.
+
+Analisis: Terdapat dua status utama untuk kredit, yaitu "Active" dan "Closed." Banyak nasabah yang memiliki status "Closed," yang menunjukkan bahwa mereka telah menyelesaikan kewajiban pinjaman mereka.
+Insight: Perusahaan dapat memanfaatkan data nasabah yang memiliki status "Closed" untuk mengidentifikasi profil nasabah yang berhasil dalam pengelolaan utang. Program penghargaan atau tawaran khusus dapat dirancang untuk nasabah ini agar tetap setia.
+
+# 17. Distribusi Jumlah Kredit berdasarkan Jenis Kredit 
+![17. Distribusi Jumlah Kredit berdasarkan Jenis Kredit](https://github.com/hijirdella/EDA-Homecredit/blob/e1a5eb1644642621168dbcb82152b042228c053f/BI%20Graph/17.%20Distribusi%20Jumlah%20Kredit%20berdasarkan%20Jenis%20Kredit.png)
+
+Distribusi Kredit Berdasarkan Jenis:
+Grafik ini memberikan wawasan mengenai distribusi jumlah kredit berdasarkan jenis produk kredit, membantu perusahaan memahami jenis kredit mana yang paling berisiko atau paling menguntungkan.
+
+Analisis: CREDIT_TYPE mengindikasikan jenis kredit yang diambil nasabah. Dengan adanya variasi jenis kredit (misalnya, "Consumer credit" dan "Car loan"), perusahaan dapat memahami preferensi nasabah.
+
+Insight: Memperluas penawaran produk berdasarkan preferensi kredit nasabah dapat meningkatkan penjualan. Misalnya, nasabah dengan pinjaman mobil mungkin lebih tertarik pada produk asuransi mobil atau layanan lain yang terkait.
