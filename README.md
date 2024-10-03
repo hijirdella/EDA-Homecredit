@@ -18,7 +18,7 @@ Hasil: Ada kecenderungan bahwa nasabah dengan pendapatan lebih tinggi mengajukan
 Rekomendasi Bisnis: Lakukan verifikasi pendapatan secara ketat untuk nasabah dengan pendapatan rendah yang mengajukan kredit besar, untuk menghindari risiko gagal bayar.
 
 # 2. Distribusi Usia Nasabah
-![2. Distribusi Usia Nasabah](https://github.com/hijirdella/EDA-Homecredit/blob/cd34f9cd4389f666ba2bbf8d31e7b73124580ae6/BI%20Graph/1.%20Hubungan%20Pendapatan%20Nasabah%20dan%20Jumlah%20Kredit%20yang%20Diajukan.png)
+![2. Distribusi Usia Nasabah](https://github.com/hijirdella/EDA-Homecredit/blob/309ba6e9033ac43c48c74b15e6e020a80e260c26/BI%20Graph/2.%20Distribusi%20Usia%20Nasabah.png)
 Insight: Sebagian besar nasabah berada di rentang usia 30-50 tahun
 
 Hasil: Sebagian besar nasabah yang mengajukan kredit berada di rentang usia 30-50 tahun.
