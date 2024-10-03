@@ -1,5 +1,5 @@
 # EDA-Homecredit
-This project covers descriptive statistics, univariate and multivariate analysis, and business insights for the Home Credit dataset. Key steps include identifying data quality issues, visualizing distributions, analyzing feature correlations, and deriving actionable business recommendations based on insights.
+Proyek ini mencakup statistik deskriptif, analisis univariat dan multivariat, serta insight bisnis untuk dataset Home Credit. Langkah-langkah utama meliputi identifikasi masalah kualitas data, visualisasi distribusi, analisis korelasi fitur, dan penarikan rekomendasi bisnis yang dapat diimplementasikan berdasarkan insight yang diperoleh.
 
 # 0. Distribusi Jumlah Kredit yang Diajukan
 ![0. Distribusi Jumlah Kredit yang Diajukan](https://github.com/hijirdella/EDA-Homecredit/blob/bd1d5234e6c158e3e27dc9651fdc0c21cfa86a28/BI%20Graph/0.%20Distribusi%20Jumlah%20Kredit%20yang%20Diajukan.png)
