@@ -37,11 +37,13 @@ Rekomendasi Bisnis: Berikan penawaran kredit dengan bunga rendah dan tenor lebih
 # 4. Analisis Perilaku Pembayaran Secara Keseluruhan:
 ![4. Distribution of Days Instalment vs Days Entry Payment](https://github.com/hijirdella/EDA-Homecredit/blob/cd34f9cd4389f666ba2bbf8d31e7b73124580ae6/BI%20Graph/4.%20Distribution%20of%20Days%20Instalment%20vs%20Days%20Entry%20Payment.png)
 Insight: Mayoritas nasabah cenderung membayar cicilan mereka tepat waktu atau bahkan lebih awal dari tanggal jatuh tempo. Hal ini menunjukkan bahwa nasabah memiliki perilaku keuangan yang baik dan bertanggung jawab.
+
 Rekomendasi: Buat program loyalitas atau tawarkan insentif seperti pengurangan suku bunga bagi nasabah yang konsisten melakukan pembayaran lebih awal. Ini dapat mendorong nasabah untuk terus membayar tepat waktu dan memperkuat hubungan dengan nasabah.
 
 # 5. Korelasi Antara Jumlah Cicilan dan Jumlah Pembayaran
 ![5. Distribution of Days Instalment vs Days Entry Payment](https://github.com/hijirdella/EDA-Homecredit/blob/cd34f9cd4389f666ba2bbf8d31e7b73124580ae6/BI%20Graph/5.%20Amount%20Instalment%20vs%20Amount%20Payment.png)
 Insight: Terdapat korelasi positif yang kuat antara jumlah cicilan yang dijadwalkan dengan jumlah pembayaran aktual. Namun, ada beberapa nasabah yang sering membayar di bawah jumlah cicilan yang dijadwalkan, yang mengindikasikan adanya potensi kesulitan keuangan.
+
 Rekomendasi: Segmentasi nasabah berdasarkan perilaku pembayaran mereka. Lakukan komunikasi proaktif dan tawarkan solusi yang disesuaikan (misalnya, program refinancing atau fleksibilitas pembayaran) bagi nasabah yang mengalami kesulitan membayar. Langkah ini dapat membantu mencegah terjadinya gagal bayar dan menjaga portofolio kredit yang sehat.
 
 # 6. Analisis Versi Cicilan vs Jumlah Cicilan
