@@ -48,3 +48,31 @@ Rekomendasi: Segmentasi nasabah berdasarkan perilaku pembayaran mereka. Lakukan 
 ![6. Box Plot of Instalment Version vs Instalment Number](https://github.com/hijirdella/EDA-Homecredit/blob/cd34f9cd4389f666ba2bbf8d31e7b73124580ae6/BI%20Graph/6.%20Box%20Plot%20of%20Instalment%20Version%20vs%20Instalment%20Number.png)
 Insight: Versi cicilan yang lebih rendah cenderung memiliki jumlah cicilan yang lebih tinggi dan bervariasi. Sebaliknya, versi cicilan yang lebih tinggi (produk cicilan yang lebih baru) cenderung memiliki jumlah cicilan yang lebih sedikit dan lebih seragam. Ini mengindikasikan adanya tren ke arah produk pinjaman dengan jangka waktu lebih pendek atau standar produk yang lebih ketat.
 Rekomendasi: Pertimbangkan untuk menawarkan produk cicilan baru dengan durasi yang lebih singkat, karena ini tampaknya lebih diminati oleh nasabah. Untuk nasabah dengan jumlah cicilan yang tinggi, lakukan peninjauan kembali dan restrukturisasi pinjaman agar lebih sesuai dengan kemampuan finansial mereka, guna mengurangi risiko gagal bayar.
+
+# 7. Preferensi Pelanggan - Penarikan Tunai (ATM) vs. Transaksi POS
+![7. Preferensi Pelanggan - Penarikan Tunai (ATM) vs. Transaksi POS](https://github.com/hijirdella/EDA-Homecredit/blob/376eaaf5eb78cc644b710595cbec4bf1eafc137d/BI%20Graph/8.%20Preferensi%20Pelanggan%20-%20Penarikan%20Tunai%20(ATM)%20vs.%20Transaksi%20POS.png)
+
+AMT_CREDIT_LIMIT_ACTUAL menunjukkan batas kredit yang diberikan kepada pelanggan. Distribusinya sangat skewed ke arah bawah, menunjukkan bahwa sebagian besar pelanggan memiliki batas kredit rendah, meskipun ada beberapa outliers dengan batas kredit sangat tinggi.
+AMT_BALANCE menggambarkan saldo kredit yang tersisa atau total kredit yang masih dimiliki pelanggan. Sebagian besar pelanggan memiliki saldo kredit rendah, tetapi ada segelintir dengan saldo yang tinggi, mengindikasikan pemanfaatan kredit yang lebih besar.
+
+Kesimpulan: Banyak pelanggan yang memiliki batas kredit rendah tidak menggunakan kredit mereka secara maksimal, terlihat dari saldo kredit yang juga rendah. Hal ini bisa berarti ada potensi untuk mendorong pelanggan agar menggunakan kredit lebih banyak. Sementara itu, pelanggan dengan batas kredit yang lebih tinggi juga cenderung memiliki saldo besar, menunjukkan bahwa mereka aktif menggunakan kredit. Rekomendasi: Dorong pelanggan dengan batas kredit rendah untuk menggunakan kredit mereka lebih sering melalui program promosi cicilan tanpa bunga atau cashback pada pembelian tertentu.
+
+# 10. Jumlah Pinjaman vs Anuitas
+![10. Jumlah Pinjaman vs Anuitas](https://github.com/hijirdella/EDA-Homecredit/blob/376eaaf5eb78cc644b710595cbec4bf1eafc137d/BI%20Graph/9.%20Jumlah%20Pinjaman%20vs%20Anuitas.png)
+
+CNT_DRAWINGS_ATM_CURRENT mencatat jumlah penarikan tunai melalui ATM. Sebagian besar pelanggan melakukan penarikan dalam jumlah kecil atau tidak sama sekali.
+CNT_DRAWINGS_POS_CURRENT mencatat jumlah transaksi yang dilakukan melalui point of sale (POS). Jumlah transaksinya juga rendah bagi kebanyakan pelanggan, meski ada segelintir yang aktif bertransaksi di POS.
+
+Kesimpulan: Ada kecenderungan bahwa penarikan tunai melalui ATM lebih sering dilakukan oleh pelanggan daripada penggunaan kartu untuk transaksi di POS. Ini mungkin menunjukkan kebergantungan pada uang tunai dalam bertransaksi, meskipun ada sebagian kecil pelanggan yang aktif bertransaksi di POS.
+
+Rekomendasi: Tingkatkan penggunaan transaksi non-tunai dengan program cashback atau poin reward untuk transaksi melalui POS. Ini dapat mengurangi kebergantungan pada penarikan tunai dan berpotensi mengurangi biaya pengelolaan uang tunai bagi perusahaan.
+
+
+# 11. Distribusi Rasio Uang Muka
+![11. Distribusi Rasio Uang Muka](https://github.com/hijirdella/EDA-Homecredit/blob/51b7d1f3727f22ca4935d0cd0bd5509097c60098/BI%20Graph/10.%20Distribusi%20Rasio%20Uang%20Muka.png)
+
+Rata-rata rasio uang muka relatif rendah (sekitar 7.96%), namun ada beberapa outlier yang memiliki rasio uang muka sangat tinggi (hingga 100%). Suku bunga utama yang rendah menunjukkan bahwa sebagian besar peminjam mendapatkan suku bunga yang terjangkau, tetapi terdapat variasi yang signifikan di antara beberapa aplikasi.
+
+# 12. Korelasi yang Kuat Antara Harga Barang dan Jumlah Kredit
+![12. Harga Barang vs Jumlah Kredit](https://github.com/hijirdella/EDA-Homecredit/blob/2b7ce664391a7d9e5209de50118b91367b41b920/BI%20Graph/11.%20Harga%20Barang%20vs%20Jumlah%20Kredit.png)
+Ada korelasi sangat kuat antara harga barang yang dibiayai dan jumlah kredit yang diberikan. Hal ini menunjukkan bahwa peminjam sering kali mengambil kredit yang sesuai dengan nilai barang yang ingin mereka beli, terutama untuk barang-barang dengan harga tinggi.
