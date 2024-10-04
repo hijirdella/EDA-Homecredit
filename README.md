@@ -1,7 +1,7 @@
 # EDA-Homecredit
 Proyek ini mencakup statistik deskriptif, analisis univariat dan multivariat, serta insight bisnis untuk dataset Home Credit. Langkah-langkah utama meliputi identifikasi masalah kualitas data, visualisasi distribusi, analisis korelasi fitur, dan penarikan rekomendasi bisnis yang dapat diimplementasikan berdasarkan insight yang diperoleh.
 
-Dataset: ![Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data)
+[Dataset: Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data)
 
 ## 1. Distribusi Jumlah Kredit yang Diajukan
 ![0. Distribusi Jumlah Kredit yang Diajukan](https://github.com/hijirdella/EDA-Homecredit/blob/bd1d5234e6c158e3e27dc9651fdc0c21cfa86a28/BI%20Graph/0.%20Distribusi%20Jumlah%20Kredit%20yang%20Diajukan.png)
