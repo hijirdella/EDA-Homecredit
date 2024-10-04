@@ -142,7 +142,7 @@ Perusahaan dapat menyesuaikan penawaran produk kredit dengan memperhatikan klust
 Lakukan analisis lebih lanjut terhadap outlier untuk memastikan tidak ada risiko kredit yang tinggi. Jika outlier ini adalah nasabah yang sebenarnya memiliki profil risiko rendah, perusahaan bisa mempertimbangkan penawaran produk premium untuk mereka.
 
 # Conclusion
-Berikut adalah 3 kesimpulan penting dari analisis EDA Home Credit:
+Berikut adalah 3 kesimpulan penting dari Exploratory Data Analysis Home Credit:
 
 ## Mayoritas Nasabah Mengajukan Jumlah Kredit Kecil 
 Sebagian besar nasabah mengajukan kredit di bawah 500 ribu. Strategi bisnis dapat difokuskan pada pengembangan produk kredit mikro dengan bunga yang kompetitif untuk memenuhi kebutuhan segmen ini.
