@@ -28,11 +28,11 @@ Rekomendasi Bisnis: Fokuskan pemasaran produk kredit pada segmen usia 30-50 tahu
 # 3. Hubungan Lama Bekerja (Tahun) dan Jumlah Kredit yang Diajukan
 ![3. Hubungan Lama Bekerja (Tahun) dan Jumlah Kredit yang Diajukan](https://github.com/hijirdella/EDA-Homecredit/blob/cd34f9cd4389f666ba2bbf8d31e7b73124580ae6/BI%20Graph/3.%20Hubungan%20Lama%20Bekerja%20(Tahun)%20dan%20Jumlah%20Kredit%20yang%20Diajukan.png)
 
-Insight: Nasabah dengan riwayat kerja lebih lama cenderung mengajukan kredit lebih besar
+"Nasabah dengan riwayat kerja lebih lama cenderung mengajukan kredit lebih besar" tidak sepenuhnya tepat berdasarkan grafik ini. 
 
-Hasil: Nasabah yang bekerja lebih lama cenderung mengajukan kredit dalam jumlah lebih besar, menunjukkan hubungan antara stabilitas pekerjaan dan kepercayaan dalam pengajuan kredit.
+Insight: Nasabah dengan lama bekerja cenderung mengajukan jumlah kredit yang bervariasi, tanpa adanya pola yang jelas antara lama bekerja dan jumlah kredit yang diajukan.
 
-Rekomendasi Bisnis: Berikan penawaran kredit dengan bunga rendah dan tenor lebih panjang kepada nasabah yang memiliki riwayat kerja yang stabil.
+Rekomendasi: Perlu analisis lebih lanjut untuk menemukan faktor-faktor lain (misalnya, pendapatan atau jabatan) yang mungkin memiliki hubungan lebih kuat dengan jumlah kredit yang diajukan. Penawaran kredit bisa difokuskan pada segmen nasabah dengan kriteria stabilitas pendapatan dan profil risiko, bukan hanya lama bekerja.
 
 # 4. Analisis Perilaku Pembayaran Secara Keseluruhan:
 ![4. Distribution of Days Instalment vs Days Entry Payment](https://github.com/hijirdella/EDA-Homecredit/blob/cd34f9cd4389f666ba2bbf8d31e7b73124580ae6/BI%20Graph/4.%20Distribution%20of%20Days%20Instalment%20vs%20Days%20Entry%20Payment.png)
