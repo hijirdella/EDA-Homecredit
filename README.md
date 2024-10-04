@@ -117,3 +117,26 @@ Grafik ini memberikan wawasan mengenai distribusi jumlah kredit berdasarkan jeni
 Analisis: CREDIT_TYPE mengindikasikan jenis kredit yang diambil nasabah. Dengan adanya variasi jenis kredit (misalnya, "Consumer credit" dan "Car loan"), perusahaan dapat memahami preferensi nasabah.
 
 Insight: Memperluas penawaran produk berdasarkan preferensi kredit nasabah dapat meningkatkan penjualan. Misalnya, nasabah dengan pinjaman mobil mungkin lebih tertarik pada produk asuransi mobil atau layanan lain yang terkait.
+
+# 17. Distribution of Amount of Credit vs Amount of Goods Price
+![18. Distribution of Amount of Credit vs Amount of Goods Price](https://github.com/hijirdella/EDA-Homecredit/blob/4017a642236299d2725e0e0910d335ad85975954/BI%20Graph/18.%20Distribution%20of%20Amount%20of%20Credit%20vs%20Amount%20of%20Goods%20Price.png)
+
+Business Insight:
+Kedua variabel cenderung memiliki pola distribusi yang mirip, dengan puncak distribusi terjadi pada rentang nilai di bawah 500.000 (dalam satuan tertentu). Ini mengindikasikan bahwa mayoritas kredit yang diajukan berada pada jumlah yang relatif rendah.
+Perbedaan signifikan antara "Amount of Credit" dan "Amount of Goods Price" terjadi di beberapa rentang nilai tertentu, yang menunjukkan ada gap atau ketidaksesuaian antara harga barang dengan jumlah kredit yang diberikan. Hal ini bisa berarti ada kelebihan atau kekurangan dalam pendanaan.
+
+Rekomendasi:
+Perusahaan dapat memanfaatkan insight ini untuk meninjau kembali kebijakan pemberian kredit, terutama pada rentang nilai di mana terjadi ketidaksesuaian antara harga barang dan jumlah kredit yang diberikan.
+Pertimbangkan untuk menyesuaikan skema kredit dengan kebutuhan nyata pelanggan untuk meningkatkan kepuasan dan kesesuaian kredit dengan barang yang diinginkan.
+
+# 18. Amount Income Total vs Amount Annuity
+![19. Amount Income Total vs Amount Annuity](https://github.com/hijirdella/EDA-Homecredit/blob/4017a642236299d2725e0e0910d335ad85975954/BI%20Graph/19.%20Amount%20Income%20Total%20vs%20Amount%20Annuity.png)
+
+Business Insight:
+Mayoritas data berkelompok di rentang "Amount Income Total" di bawah 500.000. Ini menunjukkan bahwa sebagian besar nasabah memiliki pendapatan total yang relatif rendah.
+Sebagian besar "Amount Annuity" berada di bawah 75.000, yang berarti pembayaran angsuran tahunan (annuity) juga cenderung rendah, menyesuaikan dengan pendapatan nasabah.
+Garis merah (garis referensi) menunjukkan bahwa ada beberapa outlier yang memiliki "Amount Income Total" dan "Amount Annuity" yang lebih tinggi dari tren umum. Ini mungkin nasabah dengan profil keuangan yang berbeda atau ada ketidaknormalan yang perlu diperiksa lebih lanjut.
+
+Rekomendasi:
+Perusahaan dapat menyesuaikan penawaran produk kredit dengan memperhatikan kluster utama nasabah, yaitu mereka yang memiliki pendapatan rendah dan menengah. Ini dapat berupa produk kredit dengan angsuran lebih terjangkau atau suku bunga yang lebih fleksibel.
+Lakukan analisis lebih lanjut terhadap outlier untuk memastikan tidak ada risiko kredit yang tinggi. Jika outlier ini adalah nasabah yang sebenarnya memiliki profil risiko rendah, perusahaan bisa mempertimbangkan penawaran produk premium untuk mereka.
